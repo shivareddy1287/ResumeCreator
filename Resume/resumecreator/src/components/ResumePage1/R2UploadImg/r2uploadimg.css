@@ -1,0 +1,40 @@
+.profile-pic-container {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  /* top: 320px; */
+  /* left: 205px; */
+  /* transform: translate(-50%, -50%); */
+  border-radius: 50%;
+  overflow: hidden;
+  /* border: 1px solid rgb(168, 168, 170); */
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+}
+
+#photo {
+  height: 100%;
+  width: 100%;
+}
+
+#file {
+  display: none;
+}
+
+#uploadBtn {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.5);
+  color: white;
+  line-height: 15px;
+  cursor: pointer;
+  display: block;
+}

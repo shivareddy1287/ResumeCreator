@@ -1,0 +1,19 @@
+.my-image {
+  transform: translateX(10vw) translateX(-3vw) rotate(-10deg) translateY(4vw)
+    scale(0.55);
+  transform-origin: top left;
+  transition: transform 0.5s ease;
+  transition-delay: 0s;
+  width: 1000px;
+  box-sizing: content-box;
+}
+.my-image.slide-in {
+  transform: translateX(1vw) translateX(-32vw) rotate(0deg) translateY(4vw)
+    scale(0.55);
+  transform-origin: top left;
+  transition: transform 0.5s ease;
+  transition-delay: 3s;
+  width: 1000px;
+  margin-bottom: 0%;
+  box-sizing: content-box;
+}

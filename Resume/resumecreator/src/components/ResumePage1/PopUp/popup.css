@@ -1,0 +1,100 @@
+.pop-up-background-container {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 80px;
+  padding: 0px;
+  margin-top: 20px;
+  top: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-selecting-button1 {
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px;
+  margin-top: 20px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.color-selecting-button2 {
+  background-color: blue;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.color-selecting-button3 {
+  background-color: green;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.color-selecting-button4 {
+  background-color: yellow;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.color-selecting-button5 {
+  background-color: purple;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px;
+  border: 0px;
+  cursor: pointer;
+}
+.color-selecting-button6 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px;
+  border: 0px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.pop-up-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 15%;
+  top: 20%;
+}
+
+.pop-up-button {
+  width: 40px;
+  background-color: aquamarine;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  caret-color: transparent;
+}
+
+.button-container {
+  background-color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 80px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}

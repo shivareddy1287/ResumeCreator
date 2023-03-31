@@ -1,0 +1,98 @@
+.skill-box,
+input[type="text"] {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.skill-box {
+  display: inline-block;
+  background-color: #9f9a96;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  /* caret-color: transparent; */
+  /* border: 1px solid black; */
+}
+
+/* .skill-box:hover {
+  background-color: #686767;
+} */
+
+.skill-box-imput {
+  border: none;
+  outline: none;
+  background-color: #989797;
+  font-size: 14px;
+  font-weight: 600;
+  /* color: white; */
+}
+/* .skill-box-imput:hover {
+  min-width: 50px;
+  flex-grow: 1;
+} */
+
+/* .skill-box button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 0 10px;
+} */
+
+/* .skill-box button:hover {
+  background-color: #c62828;
+} */
+
+.lbtn {
+  margin-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.rbtn {
+  margin: 0;
+  border-radius: 0;
+}
+
+.sbtn {
+  margin-left: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.btnn {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  background-color: rgb(242, 7, 19);
+  height: 20px;
+  width: 20px;
+  caret-color: transparent;
+}
+
+.span-input-check {
+}
+
+/* .ul-contt {
+  display: flex;
+} */
+
+.bbb {
+  padding: 0;
+}
+
+.inside-edit {
+  margin: 1px;
+}

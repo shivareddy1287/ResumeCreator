@@ -1,0 +1,13 @@
+.front-page-nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 5%;
+}
+
+.nav-heading {
+  color: white;
+  margin-top: 6px;
+  margin-left: 10px;
+  font-weight: 620;
+}

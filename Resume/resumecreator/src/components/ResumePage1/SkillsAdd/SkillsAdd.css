@@ -1,0 +1,55 @@
+.place-text-skills-add-section {
+  color: #535163;
+  font-size: 17px;
+  border: 0px solid;
+  font-weight: 400;
+  width: auto;
+  /* background-color: blue; */
+}
+
+/* .place-text-skills-add {
+      color: white;
+      font-size: 17px;
+      border: 0px solid;
+      border-radius: 6px;
+      height: 40px;
+      font-weight: 400;
+    } */
+
+.place-text-skills-add-section {
+  /* color: #535163; */
+  font-size: 17px;
+  border: 0px solid;
+  font-weight: 400;
+  width: auto;
+  /* background-color: blue; */
+}
+
+.skills-add-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
+}
+
+.bgcc {
+  background-color: rgb(128, 82, 172);
+  height: 30px;
+  color: white;
+  border-radius: 6px;
+  outline: none;
+  margin: 6px;
+  padding: 6px;
+}
+
+.my-input::placeholder {
+  color: white;
+}
+
+.cont-d-flex-delete-button {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,39 @@
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.features-top-container {
+  width: 50%;
+  text-align: center;
+}
+
+.features-options-container {
+  display: flex;
+}
+
+.feature-option {
+  margin: 10px;
+  text-align: start;
+  margin-bottom: 50px;
+  max-width: 30%;
+}
+.option-passage {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-weight: 200;
+}
+
+.option-heading {
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.features-heading {
+  background-color: rgb(103, 78, 245);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}

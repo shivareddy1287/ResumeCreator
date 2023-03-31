@@ -1,0 +1,25 @@
+.faq-container {
+  display: flex;
+  margin-top: 100px;
+}
+
+.faq-head-cont {
+  margin-right: 50px;
+  margin-top: 30px;
+  width: 50%;
+}
+
+.faq-span-heading {
+  background-color: rgb(103, 78, 245);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.faq-qest-head {
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.faq-passage {
+  margin-top: 0px;
+}

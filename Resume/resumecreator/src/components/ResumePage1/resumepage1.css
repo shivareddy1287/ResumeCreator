@@ -1,0 +1,753 @@
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* .location-main-head,back,position,degree,dot,email-phone-back,total-back,button-download-opp,+,-, */
+
+.mainCont {
+  display: flex;
+}
+
+.head11 {
+  color: blue;
+}
+
+.main-cont-bg {
+  background-color: blueviolet;
+  padding: 65px;
+}
+
+.margin-main-cont {
+  padding: 15px;
+}
+
+.main-cont {
+  padding: 65px;
+  background-color: white;
+
+  min-height: 170vh;
+}
+
+.upload-profile {
+  background-color: #535163;
+  border-radius: 150px;
+  height: 150px;
+  width: 150px;
+  font-size: 40px;
+  color: rgb(223, 189, 189);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.para-picture {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.text-center {
+  text-align: center;
+}
+
+.head-your-org {
+  font-size: 45px;
+  font-weight: bold;
+  color: #535163;
+  margin-bottom: 0px;
+  width: 510px;
+  border: 0px;
+}
+
+.head-your-para-org {
+  font-size: 26px;
+  font-weight: bold;
+  color: #535163;
+  margin-top: 0px;
+  border: 0px;
+  width: 510px;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+
+  align-items: center;
+}
+
+.summary-head {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  border: 0px solid;
+}
+
+.summary-text-total {
+  color: #535163;
+  font-size: 17px;
+  border: 0px solid;
+  font-weight: 400;
+  resize: none;
+  margin-top: 6px;
+  width: 250px;
+}
+
+.work-text-total {
+  color: #535163;
+  font-size: 17px;
+  border: 0px solid;
+  font-weight: 400;
+  resize: none;
+  margin-top: 6px;
+  width: 660px;
+}
+
+.main-cont-width {
+}
+
+.place-text {
+  color: #535163;
+  font-size: 17px;
+  border: 0px solid;
+  font-weight: 400;
+}
+
+.work-summary-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.position-text {
+  color: #535163;
+  font-size: 20px;
+  border: 0px solid;
+  font-weight: bold;
+}
+
+.employer-text {
+  color: #535163;
+  font-size: 16px;
+  border: 0px solid;
+  font-weight: bold;
+}
+
+.location {
+  color: blue;
+  font-size: 16px;
+  border: 0px solid;
+  font-weight: bold;
+}
+
+.margin {
+  margin-top: 6px;
+}
+
+.icon-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.email-icon-back {
+  background-color: rgb(58, 22, 124);
+  border-radius: 10px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.font-icon-email {
+  font-size: 12px;
+  color: white;
+}
+
+.colored-list {
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+.colored-list li::before {
+  content: "•"; /* Use the dot symbol as content */
+  color: blue; /* Set the color to red */
+  display: inline-block;
+  font-size: 2.2em;
+  margin-left: 0px;
+  width: 10px; /* Adjust the width to match the font size */
+  margin-right: 0.5em; /* Add some spacing between the dot and the text */
+}
+
+.position-employer-margin {
+  margin-left: 30px;
+}
+
+.button-download {
+  background-color: orangered;
+  border: 0px solid;
+  border-radius: 15px;
+  height: 100px;
+  width: 200px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  order-radius: 4px;
+  cursor: pointer;
+}
+
+.top-container-head {
+  /* position: fixed;
+  top: 30px;
+  left: 30%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.top-button-styles {
+  background-color: black;
+  height: 100px;
+  min-width: 100px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  gap: 20px;
+}
+
+/* .h2ClassFontA1 {
+  color: "white";
+  font-family: "initial";
+  font-size: "30px";
+  box-sizing: content-box;
+}
+
+.h2ClassFontA2 {
+  color: "white";
+  font-family: "initial";
+  font-size: "40px";
+  box-sizing: content-box;
+}
+
+.h2ClassFontA3 {
+  color: "white";
+  font-family: "initial";
+  font-size: "60px";
+  box-sizing: content-box;
+} */
+
+.h2ClassFontA1 {
+  color: "white";
+  font-family: "initial";
+  font-size: "30px";
+  box-sizing: content-box;
+}
+
+.h2ClassFontA2 {
+  color: "white";
+  font-family: "initial";
+  font-size: "40px";
+  box-sizing: content-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.h2ClassFontA3 {
+  color: "white";
+  font-family: "initial";
+  font-size: "60px";
+  box-sizing: content-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.divFontSizeA {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-end; */
+  /* align-items: flex-end; */
+}
+
+.color-para {
+  color: white;
+  margin-bottom: 0px;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+}
+
+.selected-options {
+  background-color: white;
+  height: 40px;
+  border: 0px;
+  margin-top: 3px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.para1 {
+  width: 300px;
+}
+
+.para {
+  width: 400px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  background-color: rgb(238, 230, 230);
+}
+
+textarea[type="text"]:focus {
+  outline: none;
+  background-color: rgb(238, 230, 230);
+}
+
+.fontSelecterContainer {
+  margin-left: 50px;
+}
+/* 
+#content {
+   padding: 8px;
+  margin: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px; 
+  width: 580px;
+  height: 830px;
+} */
+
+#content {
+  width: 587px;
+  height: 834px;
+  padding: 16px;
+}
+
+/* #content {
+  width: 587px;
+  height: 834px;
+} */
+
+.check-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.head-resume-pdf {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-head-your {
+  font-size: 45px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.font-profession-sub-main-resume1 {
+  font-size: 22px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.back-img {
+  background-color: black;
+  height: 200px;
+  width: 200px;
+}
+
+.font-para-resume1 {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.from-empleyer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mail-phone-linkedin {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.workexp-skillshonoreducation {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.work-text-total-resume2 {
+  color: #535163;
+  font-size: 17px;
+  border: 0px solid;
+  font-weight: 400;
+  resize: none;
+  margin-top: 6px;
+  width: 460px;
+}
+
+.side-head-awards {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  border: 0px solid;
+}
+
+.place-text-resume2 {
+  color: #535163;
+  font-size: 17px;
+  border: 0px solid;
+  font-weight: 400;
+}
+
+.border-hr {
+  border-top-width: 2px;
+  border: 2px solid black;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 10px;
+  margin: 5px;
+  margin-top: 35px;
+}
+
+.left-margin-linkedin {
+  margin-left: 20px;
+}
+
+.head-your-para-resume2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #535163;
+  margin-top: 10px;
+  border: 0px;
+  width: 510px;
+}
+
+.skills-add-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.place-text-skills-add {
+  color: #535163;
+  font-size: 17px;
+  border: 0px solid;
+  font-weight: 400;
+  width: auto;
+}
+
+/* .place-text-skills-add {
+  color: white;
+  font-size: 17px;
+  border: 0px solid;
+  border-radius: 6px;
+  height: 40px;
+  font-weight: 400;
+} */
+
+.skills-button-cont {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.margin-right-cont-pdf {
+  margin-right: 20px;
+}
+
+.icon-cont-pdf {
+  display: flex;
+  flex-direction: row;
+}
+
+.email-icon-back-pdf {
+  background-color: rgb(58, 22, 124);
+  border-radius: 10px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.font-icon-email-pdf {
+  font-size: 12px;
+  color: white;
+}
+
+.workexp-skillshonoreducation-pdf {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.mail-phone-linkedin2-pdf2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.border-hr-pdf2 {
+  border-top-width: 2px;
+  border: 2px solid black;
+  border-left: 0px;
+  border-right: 0px;
+  margin: 5px;
+  margin-top: 35px;
+}
+
+.head-resume-pdf2 {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.font-para-resume-pdf2 {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.cont-d-flex-button-honor-pdf2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cont-add-button-exp-pdf2 {
+  background-color: orange;
+  height: 25px;
+  border: 0px;
+  border-radius: 20px;
+  width: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+.add-button-exp-pdf2 {
+  border: 0px;
+  background-color: transparent;
+  margin: 0px;
+}
+
+.fontSizeClass {
+}
+
+.fontSizeClasspara {
+}
+
+.fontSizeClassHead {
+}
+
+.fontSizeClassHeadsub {
+}
+
+.d-flex-work-add-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* index */
+.cont-add-button-exp {
+  background-color: orange;
+  height: 25px;
+  border: 0px;
+  border-radius: 20px;
+  width: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-add-button-exp {
+  background-color: orange;
+  height: 25px;
+  border: 0px;
+  border-radius: 20px;
+  width: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-button-exp {
+  border: 0px;
+  background-color: transparent;
+}
+
+.d-flex-add-delete {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  left: 80%;
+  margin-top: 0px;
+}
+
+.d-flex-add-deleteEdu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  left: 30%;
+  margin-top: 0px;
+}
+
+.d-flex-add-delete-resume2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  left: 42%;
+  margin-top: 0px;
+}
+
+.from-until-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.border-text-from-until {
+  border: 0px;
+  width: 20%;
+}
+
+.work-text-total-para1 {
+  color: #535163;
+  font-size: 9px;
+  border: 0px solid;
+  font-weight: 400;
+  margin-top: 6px;
+}
+
+/* r3 comment  */
+
+.r2top-sec-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.top-left-container {
+  display: flex;
+}
+
+.r2top-person-details {
+  margin-top: 20px;
+  margin-left: 180px;
+}
+
+.r2-email-input {
+  border: none;
+  outline: none;
+  text-align: right;
+  width: 240px;
+  font-size: 18px;
+}
+
+.r2-number-input {
+  border: none;
+  outline: none;
+  text-align: right;
+  width: 240px;
+  font-size: 18px;
+}
+
+.r2-url-input {
+  border: none;
+  outline: none;
+  text-align: right;
+  width: 240px;
+  font-size: 18px;
+}
+
+.skills-button-container {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+.r2add-button {
+  margin: 0;
+}
+.laguage-add-button-container {
+  text-align: right;
+}
+
+.image {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.r2add-button {
+  margin-bottom: 20px;
+  caret-color: transparent;
+}
+.span-box {
+  min-width: 5000px;
+  background-color: aqua;
+  margin-top: 500px;
+  padding: 100px;
+}
+
+.right-side-scroll-bar {
+  background-color: aqua;
+  width: 60px;
+  min-height: 100px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin-right: 4px;
+  margin-top: 250px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills-add-button-containerr {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
