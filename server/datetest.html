@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Month to Number Conversion</title>
+    <script>
+      function convertMonth() {
+        var monthInput = document.getElementById("monthInput");
+        var selectedMonth = monthInput.value;
+
+        // Extract the month number from the selected value
+        var monthNumber = selectedMonth.split("-")[1];
+
+        // Display the month number
+        var monthOutput = document.getElementById("monthOutput");
+        monthOutput.textContent = monthNumber;
+      }
+    </script>
+  </head>
+  <body>
+    <label for="monthInput">Select a month:</label>
+    <input type="month" id="monthInput" onchange="convertMonth()" />
+
+    <p>The selected month number is: <span id="monthOutput"></span></p>
+  </body>
+</html>

@@ -1,0 +1,164 @@
+.cont-add-button-exp {
+  background-color: orange;
+  height: 25px;
+  border: 0px;
+  border-radius: 20px;
+  width: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-add-button-exp {
+  background-color: orange;
+  height: 25px;
+  border: 0px;
+  border-radius: 20px;
+  width: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-button-exp {
+  border: 0px;
+  background-color: transparent;
+}
+
+.d-flex-add-delete {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  left: 80%;
+  margin-top: 0px;
+}
+
+.d-flex-add-deleteEdu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  left: 30%;
+  margin-top: 0px;
+}
+
+.d-flex-add-delete-resume2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  left: 42%;
+  margin-top: 0px;
+}
+
+.from-until-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.border-text-from-until {
+  border: 0px;
+  width: 20%;
+}
+
+.work-text-total-para1 {
+  color: #535163;
+  font-size: 9px;
+  border: 0px solid;
+  font-weight: 400;
+  margin-top: 6px;
+}
+
+.work-expirience-tilldate-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-widget-pop-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+  padding: 10px;
+  position: fixed;
+  right: 2rem;
+  top: 10rem;
+  border-radius: 10px;
+  height: 150px;
+}
+
+.work-exp-li-element {
+  min-width: 100%;
+}
+
+.main-cont-width {
+  padding: 6px;
+}
+.employer-text {
+  width: 100%;
+}
+.we-date-input {
+  width: "130px";
+  padding: "1px";
+}
+.we-left-cont {
+  width: 50%;
+}
+.we-right-cont {
+  min-width: 35%;
+  max-width: 50%;
+}
+@media (min-width: 600px) and (max-width: 1093px) {
+  /* Styles for screens between 600px and 1029px */
+  .we-date-input {
+    width: 80px;
+    font-size: 8px;
+    margin: 0;
+  }
+  .till-date-text {
+    font-size: 12px;
+    margin: 0;
+  }
+  .till-date-checkbox {
+    width: 10px;
+    height: 10px;
+    margin: 0;
+  }
+  .checkbox-container {
+    padding: 0;
+    padding-top: 0px;
+  }
+  .till-date-res-text {
+    font-size: 10px;
+    margin: 0;
+  }
+}
+@media (max-width: 600px) {
+  .we-date-input {
+    width: 80px;
+    font-size: 8px;
+    margin: 0;
+  }
+  .till-date-text {
+    font-size: 12px;
+    margin: 0;
+  }
+  .till-date-checkbox {
+    width: 10px;
+    height: 10px;
+    margin: 0;
+  }
+  .checkbox-container {
+    padding: 0;
+    padding-top: 0px;
+  }
+  .till-date-res-text {
+    font-size: 10px;
+    margin: 0;
+  }
+}

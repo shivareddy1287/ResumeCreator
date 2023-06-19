@@ -1,0 +1,16 @@
+<html>
+           <body> 
+           <div> 
+           <img style="border-radius: 50%; border: 1px solid black; width: 100px; height: 100px;" src="https://res.cloudinary.com/dzrc9ejln/image/upload/v1663746665/sample.jpg" />
+           </div>
+             <h1>Student Details</h1>
+             <h2>Name:</h2>
+             <p></p>
+             <h2>Email:</h2>
+             <p></p>
+             <h2>Education:</h2>
+             <p></p>
+             <h2>Work Experience:</h2>
+             <p></p>
+           </body>
+         </html>

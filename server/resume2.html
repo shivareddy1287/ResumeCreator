@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/css/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      html {
+        -webkit-print-color-adjust: exact;
+        margin-left: 75px;
+        margin-right: 75px;
+      }
+
+      .main-cont {
+        /* font-family: "Courier New"; */
+        /* font-family: "monospace"; */
+        /* font-family: "sans-serif"; */
+        /* font-family: "Gill Sans MT"; */
+
+        /* font-family: "Calibri"; */
+        /* font-family: "Trebuchet MS"; */
+        /* font-family: "Lucida Sans"; */
+        /* font-family: "Verdana"; */
+        /* font-family: "Segoe UI"; */
+        /* font-family: "Georgia"; */
+        /* font-family: "Segoe UI"; */
+        /* font-family: "Times"; */
+        /* font-family: "Helvetica"; */
+        /* font-family: "Cochin"; */
+        /* font-family: "Haettenschweiler"; */
+        /* font-family: "Impact"; */
+        /* font-family: "Tahoma"; */
+        /* font-family: "Geneva"; */
+        /* font-family: cursive; */
+        /* font-family: monospace; */
+        /* font-family: Roboto; */
+        /* font-family: "Open Sans"; */
+        /* font-family: "Cantarell"; */
+        /* font-family: "Ubuntu"; */
+        /* font-family: "Oxygen"; */
+        /* font-family: "BlinkMacSystemFont"; */
+        /* font-family: "Helvetica Neue"; */
+        /* font-family: "-apple-system"; */
+        /* font-family: system-ui; */
+        /* font-family: calc(); */
+        /* font-family: var(-webkit-print-color-adjust); */
+        /* font-family: inherit; */
+        /* font-family: initial; */
+        /* font-family: unset; */
+        /* font-family: serif; */
+        /* font-family: Calibri; */
+        /* font-family: Lucida Bright; */
+        /* font-family: Comic Sans; */
+        /* font-family: "Optima"; */
+        /* font-family: "Didot"; */
+        /* font-family: Garamond; */
+        /* font-family: Monospaced; */
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .img-text-cont {
+        display: flex;
+        flex-direction: row;
+        gap: 35px;
+        margin-bottom: 40px;
+      }
+
+      .profile-img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+      }
+      .main-head-name {
+        font-size: 45px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        color: #359ebf;
+      }
+
+      .main-role {
+        font-size: 26px;
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+
+      .main-para {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 0px;
+      }
+
+      .all-side-head {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 0px;
+        /* color: rgb(81, 81, 241); */
+        color: #359ebf;
+      }
+
+      .all-para-font {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+
+      .all-para-font-email {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+
+      .all-side-side-head-sub {
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        color: rgba(0, 0, 0, 0.63);
+      }
+      .all-side-side-head-sub2 {
+        font-size: 24px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+
+      .main-text-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      }
+
+      .hr-line-top1 {
+        border-width: 2px;
+        border-color: #359ebf;
+        margin: 0px;
+        margin-bottom: 6px;
+        margin-top: -20px;
+      }
+      .hr-line-top2 {
+        border-width: 2px;
+        border-color: #359ebf;
+        margin: 0px;
+        margin-top: 6px;
+      }
+
+      .each-margin-email {
+        margin-bottom: 0px;
+      }
+
+      .email-phone-cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 15px;
+        margin-left: 10px;
+      }
+
+      .icon-text-cont {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+      }
+
+      .work-skills-cont {
+        display: flex;
+        flex-direction: row;
+        gap: 35px;
+      }
+      .work-cont {
+        width: 60%;
+      }
+
+      .skills-other-cont {
+        width: 40%;
+      }
+
+      .skills-cont {
+        margin-bottom: 25px;
+      }
+      .honour-cont {
+        margin-bottom: 25px;
+      }
+
+      .each-skills-cont {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .each-skills {
+        font-size: 25px;
+        background-color: #359ebf;
+        color: white;
+        border-radius: 4px;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-bottom: 0px;
+      }
+      .extra-para {
+        text-align: justify;
+        text-justify: distribute;
+      }
+      .margin-work {
+        margin-top: -30px;
+      }
+      .margin-list {
+        margin-left: -22px;
+      }
+      .educa-percentage {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .cert-org-cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .extra-cert-margin {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main-cont">
+      <div class="img-text-cont">
+        <div>
+          <img
+            class="profile-img"
+            src="https://res.cloudinary.com/dnm22sfwx/image/upload/v1681475468/IMG_20220612_153745_x83mee.jpg"
+          />
+        </div>
+        <div class="main-text-cont">
+          <h1 class="main-head-name">Shiva Aade</h1>
+
+          <p class="main-role">Software Developer</p>
+          <p class="main-para">
+            Passionate and Result driven with multiple years of experience in
+            Leading and delivering Enterprise-level product development,
+            Microservices
+          </p>
+        </div>
+      </div>
+      <div class="mb-3">
+        <hr class="hr-line-top1" />
+        <div class="email-phone-cont all-para-font-email">
+          <div class="icon-text-cont">
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <p class="each-margin-email">adheshiva@gmail.com</p>
+          </div>
+          <div class="icon-text-cont">
+            <div>
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <p class="each-margin-email">9441177123</p>
+          </div>
+          <div class="icon-text-cont">
+            <div>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p class="each-margin-email">www.linkedin.com/in/shiva-aade</p>
+          </div>
+          <div class="icon-text-cont">
+            <div>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p class="each-margin-email">https://github.com/shivareddy1287</p>
+          </div>
+        </div>
+        <hr class="hr-line-top2" />
+      </div>
+      <div class="work-skills-cont">
+        <div class="work-cont">
+          <div class="mt-4">
+            <h1 class="all-side-head margin-work">WORK EXPERIENCE</h1>
+            <p class="all-side-side-head-sub">Radiant Spark Technology,inc</p>
+            <p class="all-side-side-head-sub2">Software Enginee, Intern</p>
+            <p class="all-para-font">03/2022 - 02/2022</p>
+
+            <ul class="all-para-font extra-para margin-list">
+              <li>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since
+              </li>
+              <li>
+                the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+              </li>
+              <li>
+                It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged.
+              </li>
+              <li>
+                It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, and more
+              </li>
+              <li>
+                recently with desktop publishing software like Aldus PageMaker
+                including versions of Lorem Ipsum.
+              </li>
+            </ul>
+          </div>
+          <div class="mt-4">
+            <h1 class="all-side-head">WORK EXPERIENCE</h1>
+            <p class="all-side-side-head-sub">Radiant Spark Technology,inc</p>
+            <p class="all-side-side-head-sub2">Software Enginee, Intern</p>
+            <p class="all-para-font">03/2022 - 02/2022</p>
+
+            <ul class="all-para-font extra-para margin-list">
+              <li>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since
+              </li>
+              <li>
+                the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+              </li>
+              <li>
+                It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged.
+              </li>
+              <li>
+                It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, and more
+              </li>
+              <li>
+                recently with desktop publishing software like Aldus PageMaker
+                including versions of Lorem Ipsum.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="skills-other-cont">
+          <div class="skills-cont">
+            <h1 class="all-side-head mb-1">SKILLS</h1>
+            <div class="each-skills-cont">
+              <p class="each-skills">React js</p>
+              <p class="each-skills">Node js</p>
+              <p class="each-skills">CSS</p>
+              <p class="each-skills">HTML</p>
+              <p class="each-skills">SQL</p>
+              <p class="each-skills">Python</p>
+              <p class="each-skills">JavaScript</p>
+            </div>
+          </div>
+          <div class="honour-cont">
+            <h1 class="all-side-head">AWARDS</h1>
+            <p class="all-side-side-head-sub">Employee of the Month</p>
+            <p class="all-side-side-head-sub2">Company Award</p>
+            <p class="all-side-side-head-sub">Best Employee</p>
+            <p class="all-side-side-head-sub2">Organisation</p>
+          </div>
+          <div>
+            <h1 class="all-side-head">EDUCATION</h1>
+            <div class="educa-percentage">
+              <p class="all-side-side-head-sub">SSC</p>
+              <p class="all-side-side-head-sub">90%</p>
+            </div>
+            <p class="all-side-side-head-sub2">Telangana Residential Boys</p>
+            <p class="all-para-font">03/2015 - 02/2016</p>
+            <div class="educa-percentage">
+              <p class="all-side-side-head-sub">EEE</p>
+              <p class="all-side-side-head-sub">80%</p>
+            </div>
+            <p class="all-side-side-head-sub2">
+              Jawaharlal Nehru govt polytechnic
+            </p>
+            <p class="all-para-font">03/2022 - 02/2022</p>
+            <div class="educa-percentage">
+              <p class="all-side-side-head-sub">EEE</p>
+              <p class="all-side-side-head-sub">80%</p>
+            </div>
+
+            <p class="all-side-side-head-sub2">
+              Nalla Narasimha Reddy group of institutions
+            </p>
+            <p class="all-para-font">03/2022 - 02/2022</p>
+          </div>
+
+          <div id="certifications">
+            <!-- <h1 class="all-side-head extra-cert-margin">CERTIFICATION</h1>
+            <div>
+              <div class="cert-org-cont">
+                <p class="all-side-side-head-sub">certifications name</p>
+                <p class="all-side-side-head-sub2">2022-2022</p>
+              </div>
+              <p class="all-side-side-head-sub2">Issue org</p>
+              <p class="all-side-side-head-sub2">certifications link</p>
+            </div> -->
+          </div>
+          <div>
+            <h1 class="all-side-head extra-cert-margin">PUBLICATIONS</h1>
+            <div id="publications">
+              <div>
+                <div class="cert-org-cont">
+                  <p class="all-side-side-head-sub">publications name</p>
+                  <p class="all-side-side-head-sub2">2022-2022</p>
+                </div>
+                <p class="all-side-side-head-sub2">publications links</p>
+                <p class="all-side-side-head-sub2">publications des</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/js/mdb.min.js"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/4d0b0ac83e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // Create the parent container element
+      var certificationsContainer = document.createElement("div");
+      certificationsContainer.id = "certifications";
+
+      // Create the h1 element
+      var h1Element = document.createElement("h1");
+      h1Element.className = "all-side-head extra-cert-margin";
+      h1Element.textContent = "CERTIFICATION";
+      certificationsContainer.appendChild(h1Element);
+
+      // Create the inner div
+      var innerDiv = document.createElement("div");
+
+      // Create the div for certifications name and date
+      var certOrgDiv = document.createElement("div");
+      certOrgDiv.className = "cert-org-cont";
+
+      var certNameElement = document.createElement("p");
+      certNameElement.className = "all-side-side-head-sub";
+      certNameElement.textContent = "certifications name";
+      certOrgDiv.appendChild(certNameElement);
+
+      var certDateElement = document.createElement("p");
+      certDateElement.className = "all-side-side-head-sub2";
+      certDateElement.textContent = "2022-2022";
+      certOrgDiv.appendChild(certDateElement);
+
+      innerDiv.appendChild(certOrgDiv);
+
+      // Create the issuer organization paragraph
+      var issuerOrgElement = document.createElement("p");
+      issuerOrgElement.className = "all-side-side-head-sub2";
+      issuerOrgElement.textContent = "Issue org";
+      innerDiv.appendChild(issuerOrgElement);
+
+      // Create the certifications link paragraph
+      var certificationsLinkElement = document.createElement("p");
+      certificationsLinkElement.className = "all-side-side-head-sub2";
+      certificationsLinkElement.textContent = "certifications link";
+      innerDiv.appendChild(certificationsLinkElement);
+
+      certificationsContainer.appendChild(innerDiv);
+
+      var certEleId = document.getElementById("certifications");
+
+      // Append the container element to the document body
+      certEleId.appendChild(certificationsContainer);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"],
+  "appService.defaultWebAppToDeploy": "/subscriptions/28a4feff-5016-41de-a8b9-80e92173e2f7/resourceGroups/testing/providers/Microsoft.Web/sites/myresumeq",
+  "appService.deploySubpath": "."
+}

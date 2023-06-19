@@ -1,0 +1,125 @@
+.cont-add-button-exp {
+  background-color: orange;
+  height: 25px;
+  border: 0px;
+  border-radius: 20px;
+  width: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-add-button-exp {
+  background-color: orange;
+  height: 25px;
+  border: 0px;
+  border-radius: 20px;
+  width: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-button-exp {
+  border: 0px;
+  background-color: transparent;
+}
+
+.d-flex-add-delete {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  left: 80%;
+  margin-top: 0px;
+}
+
+.d-flex-add-deleteEdu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  left: 30%;
+  margin-top: 0px;
+}
+
+.d-flex-add-delete-resume2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  left: 42%;
+  margin-top: 0px;
+}
+
+.from-until-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.border-text-from-until {
+  border: 0px;
+  width: 20%;
+}
+
+.work-text-total-para1 {
+  color: #535163;
+  font-size: 9px;
+  border: 0px solid;
+  font-weight: 400;
+  margin-top: 6px;
+}
+
+.eud-from-to {
+  width: 50px;
+  padding: 2px;
+}
+
+.eud-input-cont-from-to {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-widget-pop-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+  padding: 10px;
+  position: fixed;
+  right: 2rem;
+  top: 10rem;
+  border-radius: 10px;
+  height: 150px;
+}
+
+.education-ul-cont {
+  margin: 0;
+  padding: 6px 6px 6px 0px;
+}
+
+.education-ul-cont3 {
+  margin: 0;
+  padding: 6px 6px 6px 0px;
+}
+
+.education-li-item {
+  padding: 6px;
+  width: 100%;
+}
+.inividual-education-container {
+  padding: 4px;
+  margin: 0;
+}
+.education-percentage {
+  outline: 0;
+  border: 0;
+  width: 60px;
+}
+/* .education-percentage:focus { */
+/* background-color: rgb(238, 230, 230);
+} */

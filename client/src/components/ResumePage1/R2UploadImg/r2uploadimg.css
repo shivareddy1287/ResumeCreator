@@ -1,0 +1,57 @@
+.profile-crop-img {
+  width: 350px;
+}
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pop-up-box {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.circlee {
+  height: 150px;
+  width: 150px;
+
+  border-radius: 50%;
+}
+.cam-icon-container {
+  position: absolute;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.crop-upload-photo-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-btn-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #05eda0;
+  padding: 0px 15px;
+  border-radius: 40px;
+  cursor: pointer;
+  caret-color: transparent;
+  margin: 10px;
+  color: white;
+}
+.upload-button-name {
+  margin: 10px;
+}

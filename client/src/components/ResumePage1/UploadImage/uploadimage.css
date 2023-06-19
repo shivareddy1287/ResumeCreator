@@ -1,0 +1,44 @@
+.upload-profile {
+  background-color: #535163;
+  border-radius: 150px;
+  height: 150px;
+  width: 150px;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.img {
+  border-radius: 150px;
+  height: 150px;
+  width: 150px;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.img-icon {
+  color: rgb(201, 202, 201);
+}
+
+.select-picture-text {
+  margin-top: 0px;
+  font-size: 9px;
+}
+
+.inside-container {
+  color: transparent;
+}
+
+.texttt {
+  margin-top: 0px;
+}

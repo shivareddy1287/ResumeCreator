@@ -1,0 +1,67 @@
+.skill-box {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.skill-box {
+  display: inline-block;
+  background-color: #d3d3d3;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.span-el-crate {
+  caret-color: transparent;
+}
+
+.skill-box-imput {
+  border: none;
+  outline: none;
+  background-color: #d3d3d3;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.lbtn {
+  margin-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.rbtn {
+  margin: 0;
+  border-radius: 0;
+}
+
+.sbtn {
+  margin-left: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.btnn {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  background-color: rgb(242, 7, 19);
+  height: 20px;
+  width: 20px;
+  caret-color: transparent;
+}
+
+.span-input-check {
+}
+
+.bbb {
+  padding: 0;
+}
+
+.inside-edit {
+  margin: 1px;
+}
