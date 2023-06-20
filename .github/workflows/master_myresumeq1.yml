@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'myresumeq1'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_112B7512A3A3489E817C43B4156324E4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AAA7E2C53838424FBAF9AE33EC28CB08 }}
           package: .
