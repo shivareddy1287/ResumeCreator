@@ -8,9 +8,16 @@ const port = 5000;
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use("/", (req, res) => {
-  res.send("welcome to azure");
+app.use(express.static(process.cwd() + "/client/build/"));
+
+app.get("/", (req, res) => {
+  res.sendFile(process.cwd() + "/client/build/index.html");
 });
+
+// app.use("/", (req, res) => {
+//   res.send("welcome to azure project");
+// });
+
 app.use("/", userRoutes);
 
 app.listen(port, () => {
